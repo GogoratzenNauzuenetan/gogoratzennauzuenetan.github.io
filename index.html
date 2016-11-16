@@ -12,6 +12,17 @@ layout: default
   {% endfor %}
 </div>
 
+<div id="group">
+  {% for group in site.groups %}
+  <img src="{{ group.image }}"/>
+  <div id="groupText">
+    <h1>{{ group.title }}</h1>
+    <h2>{{ group.subtitle }}</h2>
+    {{ group.content }}
+  </div>
+  {% endfor %}
+</div>
+
 <ul id="sale">
     {% for store in site.stores %}
     <li><a href="{{ store.url }}"><img src="{{ store.logo }}"/></a><a href="{{ store.url }}">{{ store.title }}</a></li>
