@@ -23,11 +23,22 @@ layout: default
   {% endfor %}
 </div>
 
-<ul id="sale">
+<div id="prologue">
+  {% for prologue in site.prologues %}
+  <h1>{{ prologue.title }}</h1>
+  <h2>{{ prologue.subtitle }}</h2>
+  {{ prologue.content }}
+  {% endfor %}
+</div>
+
+<div id="stores">
+  <h1>Non erosi?</h1>
+  <ul>
     {% for store in site.stores %}
     <li><a href="{{ store.url }}"><img src="{{ store.logo }}"/></a><a href="{{ store.url }}">{{ store.title }}</a></li>
     {% endfor %}
-</ul>
+  </ul>
+</div>
 
 <div id="presentations">
   <h1>Hurrengo datak</h1>
