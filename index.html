@@ -17,20 +17,18 @@ layout: default
 <div id="presentations">
   <h1>Hurrengo datak</h1>
   <ul>
+    {% for event in site.events %}
     <li>Data</li>
-    <li>Data</li>
-    <li>Data</li>
-    <li>Data</li>
+    {% endfor %}
   </ul>
 </div>
 
 <div id="news">
   <h1>Berriak</h1>
   <ul>
-    <li>Berriak</li>
-    <li>Berriak</li>
-    <li>Berriak</li>
-    <li>Berriak</li>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}"><img src="{{ post.thumbnail }}"/></a><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
   </ul>
 </div>
 
