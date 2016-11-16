@@ -7,3 +7,8 @@ author:
   github: iunetrecet
   web: http://iune.info
 timezone: "Europe/Paris"
+
+# Collections
+collections:
+  - events
+

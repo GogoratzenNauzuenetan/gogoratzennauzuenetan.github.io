@@ -18,7 +18,7 @@ layout: default
   <h1>Hurrengo datak</h1>
   <ul>
     {% for event in site.events %}
-    <li>Data</li>
+    <li><a href="{{ event.url }}"><img src="{{ event.image }}"/></a><a href="{{ event.url }}">{{ event.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

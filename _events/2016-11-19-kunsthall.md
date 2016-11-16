@@ -1,7 +1,7 @@
 ---
 #layout: event
 title: "Kunsthallen aurkezpena"
-image: images/events/kunstall/prueba.png
+image: images/events/kunsthall/prueba.jpg
 date: 2016-11-19
 ---
 
