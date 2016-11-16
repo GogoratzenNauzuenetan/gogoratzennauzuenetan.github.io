@@ -1,2 +1,49 @@
 <!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+
+    <title>{{ site.title }}</title>
+
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.description.author.name }}" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+
+
+  <body>
+
+    <ul id="social">
+      <li><a href="FATXABUK">F</a></li>
+      <li><a href="TWITTER">T</a></li>
+      <li><a href="FLICKR">F</a></li>
+      <li>Hiz</li>
+    </ul>
+
+    <nav id="mainNav">
+      <li>Hasiera</li>
+      <li>Ipuinak</li>
+      <li>Kontaktua</li>
+    </nav>
+
+    <header>
+      <hgroup>
+        <h1>Gogoratzen nauzuenetan</h1>
+        <h2>Ipuin ilustratuen bilduma</h2>
+      </hgroup>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>Lizentzia bla bla</p>
+    </footer>
+  </body>
 </html>
