@@ -32,10 +32,15 @@ layout: default
 </div>
 
 <div id="stores">
+  <img src="images/header.jpg"/>
   <h1>Non erosi?</h1>
   <ul>
     {% for store in site.stores %}
-    <li><a href="{{ store.url }}"><img src="{{ store.logo }}"/></a><a href="{{ store.url }}">{{ store.title }}</a></li>
+    <li>
+      <div class="storeImage" style="background: url('{{ store.black }}'); background-size: 100%;"><img src="{{ store.image }}"/></div>
+      <a href="{{ store.url }}">{{ store.title }}</a>
+      {{ store.content }}
+    </li>
     {% endfor %}
   </ul>
 </div>
