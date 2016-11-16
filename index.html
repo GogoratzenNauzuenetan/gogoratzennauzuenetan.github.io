@@ -3,8 +3,13 @@ layout: default
 ---
 
 <div id="bookDescription">
-  <img src=""/>
-  <p>bla</p>
+  {% for description in site.descriptions %}
+  <div id="descriptionImage"><img src="{{ description.image }}"/></div>
+  <div id="descriptionText">
+    <h1>{{ description.title }}</h1>
+    {{ description.content }}
+  </div>
+  {% endfor %}
 </div>
 
 <ul id="sale">
