@@ -4,8 +4,8 @@ layout: default
 
 <div id="bookDescription">
   {% for description in site.descriptions %}
-  <div id="descriptionImage" style="background: url('{{ description.image }}'); background-size: cover; background-position: center center"/></div>
-  <div id="descriptionText">
+  <div class="descriptionImage" style="background: url('{{ description.image }}'); background-size: cover; background-position: center center"/></div>
+  <div class="descriptionText">
     <h1>{{ description.title }}</h1>
     {{ description.content }}
   </div>
@@ -15,7 +15,7 @@ layout: default
 <div id="group">
   {% for group in site.groups %}
   <img src="{{ group.image }}"/>
-  <div id="groupText">
+  <div class="groupText">
     <h1>{{ group.title }}</h1>
     <h2>{{ group.subtitle }}</h2>
     {{ group.content }}
