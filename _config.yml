@@ -11,4 +11,6 @@ timezone: "Europe/Paris"
 # Collections
 collections:
   - events
+  - stories
+  - stores
 
