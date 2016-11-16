@@ -1,7 +1,7 @@
 ---
 #layout: post
 title: "Whisky, gambling and Ferraris"
-thumbnail: "images/posts/whisky/prueba.jpg"
+image: "images/posts/whisky/prueba.jpg"
 date: 2016-11-16
 ---
 
