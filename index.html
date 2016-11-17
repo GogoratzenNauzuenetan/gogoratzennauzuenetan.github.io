@@ -37,7 +37,7 @@ layout: default
   <ul>
     {% for store in site.stores %}
     <li>
-      <div class="storeImage" style="background: url('{{ store.black }}'); background-size: 100%;"><img src="{{ store.image }}"/></div>
+      <img src="{{ store.image }}"/>
       <a href="{{ store.url }}">{{ store.title }}</a>
       {{ store.content }}
     </li>
@@ -45,11 +45,19 @@ layout: default
   </ul>
 </div>
 
-<div id="presentations">
-  <h1>Hurrengo datak</h1>
+<div id="events">
+  <h1>Hurrengo ekitaldiak</h1>
+  <h2>Apuntatu itzazu agendan!</h2>
   <ul>
     {% for event in site.events %}
-    <li><a href="{{ event.url }}"><img src="{{ event.image }}"/></a><a href="{{ event.url }}">{{ event.title }}</a></li>
+    <li>
+      <div class="eventImage" href="{{ event.url }}" style="background: url('{{ event.image }}'); background-size: cover;"/></div>
+      <div class="eventText">
+        <p class="date">{{ event.date | date: "%m" }}/<span class="day">{{ event.date | date: "%d" }}</span></p>
+        <p class="place">{{ event.place }}</p>
+        <h1>{{ event.title }}</h1>
+      </div>
+    </li>
     {% endfor %}
   </ul>
 </div>
