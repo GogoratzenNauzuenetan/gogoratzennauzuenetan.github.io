@@ -38,8 +38,9 @@ layout: default
     {% for store in site.stores %}
     <li>
       <img src="{{ store.image }}"/>
-      <a href="{{ store.url }}">{{ store.title }}</a>
+      <h1>{{ store.title }}</h1>
       {{ store.content }}
+      <a class="storeLink" href="{{ store.link }}">Webgunea</a>
     </li>
     {% endfor %}
   </ul>
