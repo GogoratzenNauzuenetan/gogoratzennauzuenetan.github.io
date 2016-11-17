@@ -53,9 +53,11 @@ layout: default
     <li>
       <div class="eventImage" href="{{ event.url }}" style="background: url('{{ event.image }}'); background-size: cover;"/></div>
       <div class="eventText">
-        <p class="date">{{ event.date | date: "%m" }}/<span class="day">{{ event.date | date: "%d" }}</span></p>
-        <p class="place">{{ event.place }}</p>
-        <h1>{{ event.title }}</h1>
+        <div class="center">
+          <p class="date">{{ event.date | date: "%m" }}/<span class="day">{{ event.date | date: "%d" }}</span></p>
+          <p class="place">{{ event.place }}</p>
+          <h1>{{ event.title }}</h1>
+        </div>
       </div>
     </li>
     {% endfor %}

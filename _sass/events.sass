@@ -1,0 +1,40 @@
+#events
+  text-align: center
+  ul
+    padding: 0 10%
+    li
+      list-style: none
+      font-size: 0
+      width: 100%
+      .eventImage, .eventText
+        height: 20rem
+        vertical-align: middle
+        display: inline-block
+      .eventImage
+        width: 65%
+      .eventText
+        width: 35%
+        font-size: 1rem
+        background: #1b1b1b
+        color: white
+        .date
+          font-size: 3em
+          margin: 0
+        .day
+          font-size: 2.5em
+        .place
+          font-weight: bold
+          margin-top: 0
+        h1
+          font-size: 1.5rem
+          font-weight: normal
+          margin-bottom: 2em
+      .center
+        display: table-cell
+        height: 20em
+        vertical-align: middle
+        width: 100em
+
+    li:nth-child(even)
+      .eventText
+        float: left
