@@ -47,6 +47,13 @@ layout: default
   </ul>
 </div>
 
+<div id="presentation">
+  {% for presentation in site.presentations %}
+  <h1>{{ presentation.title }}</h1>
+  {{ presentation.content }}
+  {% endfor %}
+</div>
+
 <div id="events">
   <h1>Hurrengo ekitaldiak</h1>
   <h2>Apuntatu itzazu agendan!</h2>
