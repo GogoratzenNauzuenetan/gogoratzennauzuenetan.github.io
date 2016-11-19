@@ -16,7 +16,7 @@ layout: default
   {% for group in site.groups %}
   <img src="{{ group.image }}"/>
   <div class="groupText">
-    <h1>{{ group.title }}</h1>
+    <h1 class="sectionTitle">{{ group.title }}</h1>
     <h2>{{ group.subtitle }}</h2>
     {{ group.content }}
   </div>
@@ -26,7 +26,7 @@ layout: default
 <div id="prologue">
   {% for prologue in site.prologues %}
   <img src="{{ prologue.image }}"/>
-  <h1>{{ prologue.title }}</h1>
+  <h1 class="sectionTitle">{{ prologue.title }}</h1>
   <h2>{{ prologue.subtitle }}</h2>
   {{ prologue.summary }}
   {% endfor %}
@@ -34,7 +34,7 @@ layout: default
 
 <div id="stores">
   <img src="images/header.jpg"/>
-  <h1>Non erosi?</h1>
+  <h1 class="sectionTitle">Non erosi?</h1>
   <ul>
     {% for store in site.stores %}
     <li>
@@ -55,7 +55,7 @@ layout: default
 </div>
 
 <div id="events">
-  <h1>Hurrengo ekitaldiak</h1>
+  <h1 class="sectionTitle">Hurrengo ekitaldiak</h1>
   <h2>Apuntatu itzazu agendan!</h2>
   <ul>
     {% for event in site.events %}
@@ -83,7 +83,7 @@ layout: default
 </div>
 
 <div id="news">
-  <h1>Berriak</h1>
+  <h1 class="sectionTitle">Berriak</h1>
   <ul>
     {% for post in site.posts %}
     <li>
