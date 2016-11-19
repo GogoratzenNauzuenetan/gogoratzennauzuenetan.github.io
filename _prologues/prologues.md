@@ -5,5 +5,6 @@ subtitle: "Asun Casasolaren eskutik"
 image: "images/asun.jpg"
 ---
 
-The difference is that if that one person in a thousand is a man, we say, simply, that he is passionately keen on his job; if she is a woman, we say she is a freak. -Dorothy L. Sayers While falling in love is fun, it’s not everything, and it’s not the antidote to an unfulfilled life, despite what Reese Witherspoon movies may tell you. -Jessica Valenti There will be no mass-based feminist movement as long as feminist ideas are understood only by a well-educated few. -bell hooks...
+El Concurso de Relatos Cortos Asun Casasola, cuyo excepcional trabajo queda recogido en este pequeño libro, es una muestra más de rechazo a la violencia de género, una lacra del siglo XXI que no entiende de razas, clases, ni edades y que, por desgracia, a mí me ha tocado demasiado cerca.
 
+Con el tiempo he aprendido que cada acción, por mínima que sea, cuenta, por lo que cada palabra que aparece en estos escritos, me da fuerza para seguir luchando contra este germen que está implantado en nuestra sociedad. 
