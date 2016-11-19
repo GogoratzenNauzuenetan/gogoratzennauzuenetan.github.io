@@ -5,6 +5,6 @@ subtitle: "Asun Casasolaren eskutik"
 image: "images/asun.jpg"
 ---
 
-El Concurso de Relatos Cortos Asun Casasola, cuyo excepcional trabajo queda recogido en este pequeño libro, es una muestra más de rechazo a la violencia de género, una lacra del siglo XXI que no entiende de razas, clases, ni edades y que, por desgracia, a mí me ha tocado demasiado cerca.
+Liburu txiki honek Asun Casasola Ipuin Motzen Lehiaketan egindako lan aparta jasotzen du, indarkeria matxistaren aurkako gaitzespen keinu bat. Adin, arraza edota klaserik aintzat hartzen ez duen XXI. mendeko gaitza da indarkeria matxista, eta, tamalez, gertuegi bizitzea egokitu zait. 
 
-Con el tiempo he aprendido que cada acción, por mínima que sea, cuenta, por lo que cada palabra que aparece en estos escritos, me da fuerza para seguir luchando contra este germen que está implantado en nuestra sociedad. 
+Denborak irakatsi dit, ekintza xumeenek ere, eragina izan ohi dutela. Hori dela eta, idatzi hauetan ageri den hitzetako bakoitzak indarra ematen dit jendartean errotuta dagoen germen honen aurka borrokan jarraitzeko. 

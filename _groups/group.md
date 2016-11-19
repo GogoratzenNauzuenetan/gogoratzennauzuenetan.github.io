@@ -4,5 +4,10 @@ subtitle: "Ametsetik liburua gauzatu duten emakumeak"
 image: "images/borratzeko.jpg"
 ---
 
-The difference is that if that one person in a thousand is a man, we say, simply, that he is passionately keen on his job; if she is a woman, we say she is a freak. -Dorothy L. Sayers While falling in love is fun, it’s not everything, and it’s not the antidote to an unfulfilled life, despite what Reese Witherspoon movies may tell you. -Jessica Valenti There will be no mass-based feminist movement as long as feminist ideas are understood only by a well-educated few. -bell hooks
+Eragile herritar ezberdinek sortutako plataforma da Txingudi Anti Sexista, Asun Casasola Ipuin Lehiaketaren sustatzailea. Bertan eta baita beste egitasmo feminista batzuetan urteetan jardun eta gero, Parean elkartea sortu dugu.
+
+Feminismotik eragiten jarraitzeko bokazioarekin jaio gara. 
+
+Liburu hau da sortzen dugun lehengo egitasmoa, herri mugimendua aliatu hartuta  eta sorkuntzaren indarraz baliatuta jendarte eraldatzeko helburuarekin aritu gara.
+Parez pare emakumeon eskubideak aldarrikatzeko.
 
