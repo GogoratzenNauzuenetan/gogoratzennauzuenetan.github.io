@@ -2,6 +2,8 @@
 #layout: story
 title: "Marcialek nobixotan"
 image: "images/stories/marcial/prueba.jpg"
+writter: "Idazlea naiz"
+illustrator: "Iune Trecet"
 ---
 
 Marcialek nobixotan hala agindu bazion ere ez darama erregina bizimodurik Maria Angustiasek.
