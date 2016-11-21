@@ -25,10 +25,10 @@ layout: default
 
 <div id="prologue">
   {% for prologue in site.prologues %}
-  <img src="{{ prologue.image }}"/>
   <h1 class="sectionTitle">{{ prologue.title }}</h1>
   <h2>{{ prologue.subtitle }}</h2>
   {{ prologue.summary }}
+  <img src="{{ prologue.image }}"/>
   {% endfor %}
 </div>
 
