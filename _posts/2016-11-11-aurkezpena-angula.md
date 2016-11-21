@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: post
 title: "‘Gogoratzen nauzuenetan’ liburuaren aurkezpena, bi urtez egin diren Asun Casasola Ipuin Lehiaketan bildutako ipuinen bilduma"
 image: "https://c1.staticflickr.com/6/5773/30681818240_80f8d69cb6.jpg"
 date: 2016-11-11

@@ -2,109 +2,115 @@
 layout: default
 ---
 
-<div id="bookDescription">
-  {% for description in site.descriptions %}
-  <div class="descriptionImage" style="background: url('{{ description.image }}'); background-size: cover; background-position: center center"/></div>
-  <div class="descriptionText">
-    <h1>{{ description.title }}</h1>
-    {{ description.content }}
-  </div>
-  {% endfor %}
-</div>
+{% include big_header.html %}
 
-<div id="group">
-  {% for group in site.groups %}
-  <img src="{{ group.image }}"/>
-  <div class="groupText">
-    <h1 class="sectionTitle">{{ group.title }}</h1>
-    <h2>{{ group.subtitle }}</h2>
-    {{ group.content }}
-  </div>
-  {% endfor %}
-</div>
+{% include nav.html %}
 
-<div id="prologue">
-  {% for prologue in site.prologues %}
-  <h1 class="sectionTitle">{{ prologue.title }}</h1>
-  <h2>{{ prologue.subtitle }}</h2>
-  {{ prologue.summary }}
-  <img src="{{ prologue.image }}"/>
-  {% endfor %}
-</div>
-
-<div id="stores">
-  <img src="images/header.jpg"/>
-  <h1 class="sectionTitle">Non erosi?</h1>
-  <ul>
-    {% for store in site.stores %}
-    <li>
-      <img src="{{ store.image }}"/>
-      <h1>{{ store.title }}</h1>
-      {{ store.content }}
-      <a class="storeLink" href="{{ store.link }}">Webgunea</a>
-    </li>
+<main>
+  <div id="bookDescription">
+    {% for description in site.descriptions %}
+    <div class="descriptionImage" style="background: url('{{ description.image }}'); background-size: cover; background-position: center center"/></div>
+    <div class="descriptionText">
+      <h1>{{ description.title }}</h1>
+      {{ description.content }}
+    </div>
     {% endfor %}
-  </ul>
-</div>
+  </div>
 
-<div id="presentation">
-  {% for presentation in site.presentations %}
-  <h1>{{ presentation.title }}</h1>
-  {{ presentation.content }}
-  {% endfor %}
-</div>
+  <div id="group">
+    {% for group in site.groups %}
+    <img src="{{ group.image }}"/>
+    <div class="groupText">
+      <h1 class="sectionTitle">{{ group.title }}</h1>
+      <h2>{{ group.subtitle }}</h2>
+      {{ group.content }}
+    </div>
+    {% endfor %}
+  </div>
 
-<div id="events">
-  <h1 class="sectionTitle">Hurrengo ekitaldiak</h1>
-  <h2>Apuntatu itzazu agendan!</h2>
-  <ul>
-    {% for event in site.events %}
-    <li>
-      <div class="eventImage" href="{{ event.url }}" style="background: url('{{ event.image }}'); background-size: cover; background-position: center center;"/></div>
-      <div class="eventText">
-        <div class="center">
-          <p class="date">{{ event.date | date: "%m" }}/<span class="day">{{ event.date | date: "%d" }}</span></p>
-          <p class="place">{{ event.time }}</p>
-          <p class="place">{{ event.place }}</p>
-          <h1>{{ event.title }}</h1>
+  <div id="prologue">
+    {% for prologue in site.prologues %}
+    <h1 class="sectionTitle">{{ prologue.title }}</h1>
+    <h2>{{ prologue.subtitle }}</h2>
+    {{ prologue.summary }}
+    <img src="{{ prologue.image }}"/>
+    {% endfor %}
+  </div>
+
+  <div id="stores">
+    <img src="images/header.jpg"/>
+    <h1 class="sectionTitle">Non erosi?</h1>
+    <ul>
+      {% for store in site.stores %}
+      <li>
+        <img src="{{ store.image }}"/>
+        <h1>{{ store.title }}</h1>
+        {{ store.content }}
+        <a class="storeLink" href="{{ store.link }}">Webgunea</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="presentation">
+    {% for presentation in site.presentations %}
+    <h1>{{ presentation.title }}</h1>
+    {{ presentation.content }}
+    {% endfor %}
+  </div>
+
+  <div id="events">
+    <h1 class="sectionTitle">Hurrengo ekitaldiak</h1>
+    <h2>Apuntatu itzazu agendan!</h2>
+    <ul>
+      {% for event in site.events %}
+      <li>
+        <div class="eventImage" href="{{ event.url }}" style="background: url('{{ event.image }}'); background-size: cover; background-position: center center;"/></div>
+        <div class="eventText">
+          <div class="center">
+            <p class="date">{{ event.date | date: "%m" }}/<span class="day">{{ event.date | date: "%d" }}</span></p>
+            <p class="place">{{ event.time }}</p>
+            <p class="place">{{ event.place }}</p>
+            <h1>{{ event.title }}</h1>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="nagore">
+    {% for nagore in site.nagore %}
+    {{ nagore.content }}
+    <h1>{{ nagore.title }}</h1>
+    <h2>{{ nagore.subtitle }}</h2>
+    {% endfor %}
+  </div>
+
+  <div id="news">
+    <h1 class="sectionTitle">Berriak</h1>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a class="newsImage" href="{{ post.url }}" style="background: url('{{ post.image }}'); background-size: cover; background-position: center;"/></a>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.summary }}...
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="stories">
+    <ul>
+      {% for story in site.stories %}
+      <li>
+        <div class="square-content" style="background: url('{{ story.thumbnail }}'); background-size: cover;">
+          <div>
+            <a href="{{ story.url }}">{{ story.title }}<span class="writter">{{ story.writter }}</span><span class="illustrator">{{ story.illustrator }}</span></a>
         </div>
       </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div id="nagore">
-  {% for nagore in site.nagore %}
-  {{ nagore.content }}
-  <h1>{{ nagore.title }}</h1>
-  <h2>{{ nagore.subtitle }}</h2>
-  {% endfor %}
-</div>
-
-<div id="news">
-  <h1 class="sectionTitle">Berriak</h1>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a class="newsImage" href="{{ post.url }}" style="background: url('{{ post.image }}'); background-size: cover; background-position: center;"/></a>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.summary }}...
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div id="stories">
-  <ul>
-    {% for story in site.stories %}
-    <li>
-      <div class="square-content" style="background: url('{{ story.thumbnail }}'); background-size: cover;">
-        <div>
-          <a href="{{ story.url }}">{{ story.title }}<span class="writter">{{ story.writter }}</span><span class="illustrator">{{ story.illustrator }}</span></a>
-      </div>
-    </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</main>

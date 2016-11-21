@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: post
 title: "Elur bolaren efektuaz, berdintasunerantz"
 image: "http://bidasoa.hitza.eus/files/2016/11/asun-casasola_nabarmen.jpg"
 date: 2016-11-18

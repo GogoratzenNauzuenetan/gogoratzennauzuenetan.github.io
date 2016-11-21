@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: post
 title: "Indarkeria matxistatik askatzeko hamahiru narrazio"
 image: "http://www.argia.eus/blogak/mikel-garcia/wp-content/uploads/2016/11/1.jpg"
 date: 2016-11-15
