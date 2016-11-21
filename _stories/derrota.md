@@ -1,0 +1,12 @@
+---
+#layout: story
+title: "La derrota de Blas"
+thumbnail: "images/stories/thumbnails/derrota.jpg"
+image: "images/stories/derrota.jpg"
+writter: "José Aristóbulo Ramírez Barrero"
+illustrator: "Nerea Olazabal Ormazabal"
+---
+
+Lo que le hizo tomar la decisión de desistir en su empeño no fue tanto la respuesta de Clemencia a su propuesta matrimonial... «Ay, Blas. Si vamos a huir como forajidos de este
+pueblo gris cegado por los prejuicios, que no sea para casarnos y bailar el mismo tango que zapatearon sin gracia nuestros ancestros. Que sea para respirar nuevos aires, enarbolar paradigmas que aquí son herejías y gritar a voz en cuello que este mundo globalizado no nos gusta, que estamos hasta la gola de privatizaciones, rescates de bancos, armamentismo violencia de género, discriminación sexual y explotación del hombre por el hombre. Si es así, me marcho contigo a donde tú quieras y te juro que seremos felices haciendo el amor, cuestionando el poder y pintando grafitis en las paredes. De lo contrario, mejor declárale tu amor a tus bártulos», sino la terrible sensación de que la sarta de disparates disparada a porrillo por la ingrata no era gratuita, que era producto de ese embeleco urdido por la oposición llamado eufemísticamente ilustración y que derivó en la inauguración de la biblioteca pública, antro que ha tenido a mal inficionar a las lugareñas con el virus de la rebeldía, la angustiante certeza de que, de no mediar correctivos enérgicos, clausurar la biblioteca o, si no es posible tanta dicha, al menos mocharle los libros, las patojas humilditas, obedienticas, recataditas y resignaditas se extinguirían inevitablemente y una vez extintas, las tunantas como Clemencia no tendrán empacho en enarbolar y pintar paradigmas hasta en la basílica. Y como lo que más quería en el mundo Blas era una mujer humildita, obedientica, recatadita y resignadita, engavetó sus bártulos y se lanzó como candidato a la alcaldía del pueblo... «Si gano, les
+entregaré la biblioteca a los de la Oración Fuerte al Espíritu Santo en calidad de comodato. Si pierdo...». Y el pobre perdió y soltero se quedó. Y por mor de su derrota, el pueblo respira nuevos aires. Aires que, digan lo que digan los que siguen empeñados en bailar el mismo tango, auguran justicia, tolerancia y equidad.

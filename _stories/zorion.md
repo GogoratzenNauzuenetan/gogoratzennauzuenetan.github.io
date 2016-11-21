@@ -1,9 +1,10 @@
 ---
 #layout: story
-title: "Marcialek nobixotan"
-image: "images/stories/marcial/prueba.jpg"
-writter: "Idazlea naiz"
-illustrator: "Iune Trecet"
+title: "Oi zorion!"
+thumbnail: "images/stories/thumbnails/zorion.jpg"
+image: "images/stories/zorion.jpg"
+writter: "Maite Artabe Urkiri"
+illustrator: "Iune Trecet Obeso"
 ---
 
 Marcialek nobixotan hala agindu bazion ere ez darama erregina bizimodurik Maria Angustiasek.
