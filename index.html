@@ -48,7 +48,7 @@ layout: default
         <img src="{{ store.image }}"/>
         <h1>{{ store.title }}</h1>
         {{ store.content }}
-        <a class="storeLink" href="{{ store.link }}">Webgunea</a>
+        {% if store.link %}<a class="storeLink" href="{{ store.link }}">Webgunea</a>{% endif %}
       </li>
       {% endfor %}
     </ul>
