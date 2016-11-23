@@ -34,7 +34,7 @@ layout: default
     {% for prologue in site.prologues %}
     <h1 class="sectionTitle">{{ prologue.title }}</h1>
     <h2>{{ prologue.subtitle }}</h2>
-    {{ prologue.summary }}
+    <p>{{ prologue.summary }}</p>
     <img src="{{ prologue.image }}"/>
     {% endfor %}
   </div>

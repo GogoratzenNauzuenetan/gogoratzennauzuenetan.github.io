@@ -1,6 +1,6 @@
 ---
 title: "Asun Casasola ipuin lehiaketako liburua"
-image: "images/liburua1.jpg"
+image: "images/liburua.jpg"
 lang: eu
 ref: description
 ---
