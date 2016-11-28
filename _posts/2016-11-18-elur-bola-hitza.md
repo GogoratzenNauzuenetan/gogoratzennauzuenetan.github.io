@@ -2,6 +2,7 @@
 layout: post
 title: "Elur bolaren efektuaz, berdintasunerantz"
 image: "http://bidasoa.hitza.eus/files/2016/11/asun-casasola_nabarmen.jpg"
+media: "Bidasoako hitza"
 date: 2016-11-18
 summary: "Datorren larunbatean, azaroaren 19an, ‘Gogoratzen nauzuenetan’ liburua aurkeztuko dugu, bi urtez egin dugun Asun Casasola Ipuin Lehiaketan bildutako ipuin ederrenen bilduma da. Ipuinak gainera, inguruko emakume ilustratzaileek egindako marrazkiekin ageri dira."
 ---

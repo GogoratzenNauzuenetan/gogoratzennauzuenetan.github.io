@@ -2,6 +2,7 @@
 layout: post
 title: "Indarkeria matxistatik askatzeko hamahiru narrazio"
 image: "http://www.argia.eus/blogak/mikel-garcia/wp-content/uploads/2016/11/1.jpg"
+media: "Argia"
 date: 2016-11-15
 summary: "“Indarkeria matxista salatzeko pankartaren atzean jartzetik harago, alde tragikoan geratzetik harago, biolentzia matxistarik gabeko gizartea nola lortu hausnartzeko ariketa jendarteratu nahi genuen eta hala sortu zen Asun Casasola aktibistaren omenezko ipuin-lehiaketa”. Bi edizio eta 500 ipuin baino gehiagoren arteko aukeraketaren ostean, gogoetagai hori duten 13 ipuinez osaturiko liburua aurkeztu dute: Gogoratzen nauzuenetan."
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "El libro 'Gogoratzen nauzuenetan' recopila trece relatos del certamen Asun Casasola"
 image: "http://www.diariovasco.com/noticias/201611/22/media/19451839.JPG"
+media: "El diario vasco"
 date: 2016-11-22
 summary: "Txingudi Anti Sexista presentó la publicación que reúne cuentos del concurso literario"
 ---

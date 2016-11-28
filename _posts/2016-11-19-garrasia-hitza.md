@@ -2,6 +2,7 @@
 layout: post
 title: "Indarkeria matxistaren kontrako garrasia"
 image: "http://bidasoa.hitza.eus/files/2016/11/DSC_0085.jpg"
+media: "Bidasoako hitza"
 date: 2016-11-19
 summary: "Gogoratzen nauzuenetan liburua aurkeztu du gaur TAS plataformak (Txingudi Anti Sexistak). Duela bi urte hasi ziren antolatzen Asun Casasola lehiaketa, eta bertara aurkeztutako 500 lanen artetik hamahiru aukeratuta osatu dute indarkeria matxistaren kontrako garrasia izan nahi duen liburua."
 ---
