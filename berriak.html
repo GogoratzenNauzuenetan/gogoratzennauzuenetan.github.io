@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include small_header.html %}
+
+<main>
+  <div class="news">
+    <h1 class="sectionTitle">Berriak</h1>
+    <ul class="newsList">
+      {% for post in site.posts %}
+      <li>
+        <a class="newsImage" href="{{ post.url }}" style="background: url('{{ post.image }}'); background-size: cover; background-position: center;"/></a>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <ul class="info"><li>{{ post.date | date: "%d/%m/%y" }}</li>{% if post.media %}<li>| {{ post.media }}</li>{% endif %}</ul>
+        {{ post.summary }}...
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</main>

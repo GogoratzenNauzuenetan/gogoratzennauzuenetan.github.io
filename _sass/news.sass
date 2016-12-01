@@ -1,4 +1,4 @@
-#news
+.news
   text-align: center
   padding: 5% 0
   h1
@@ -10,13 +10,13 @@
     text-align: left
     li
       list-style: none
-      width: 33.333%
+      width: 50%
       text-align: justify
       padding: 3%
-      display: inline-block
       font-size: .9rem
       vertical-align: top
       line-height: 1.7em
+      display: none
       a.newsImage
         height: 20rem
         vertical-align: middle
@@ -26,7 +26,9 @@
       h2
         font-size: 1.7rem
         margin-top: 1em
-        line-height: 1.7em
+        line-height: 1.5em
+      &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4)
+        display: inline-block
     ul.info
       color: grey
       border-top: .1rem dashed grey
@@ -39,6 +41,19 @@
         font-size: .8rem
         display: inline-block
         padding: 0 .4em 0 0
+    &.newsList
+      li
+        display: inline-block
+  a#moreNews
+    background: grey
+    color: white
+    padding: 1% 8%
+    margin-top: 1%
+    display: inline-block
+    font-size: 1.5em
+    &:hover
+      background: #575757
+
   @media screen and (max-width: 40em)
     ul
       li
