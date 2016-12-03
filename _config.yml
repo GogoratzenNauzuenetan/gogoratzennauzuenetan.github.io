@@ -18,6 +18,26 @@ collections:
 defaults:
   -
     scope:
+      path: "index.html"
+    values:
+      ref: "index"
+      lang: "eu"
+  -
+    scope:
+      path: "index/eu.html"
+    values:
+      ref: "index"
+      lang: "eu"
+      permalink: "/eu/"
+  -
+    scope:
+      path: "index/es.html"
+    values:
+      ref: "index"
+      lang: "es"
+      permalink: "/es/"
+  -
+    scope:
       path: "description"
     values:
       ref: "description"
