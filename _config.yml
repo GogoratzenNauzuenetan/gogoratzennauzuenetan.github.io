@@ -21,28 +21,23 @@ defaults:
       path: "description"
     values:
       ref: "description"
-      permalink: "description"
   -
     scope:
       path: "group"
     values:
       ref: "group"
-      permalink: "group"
   -
     scope:
       path: "prologue"
     values:
       ref: "prologue"
-      permalink: "prologue"
   -
     scope:
       path: "nagore"
     values:
       ref: "nagore"
-      permalink: "nagore"
   -
     scope:
       path: "presentation"
     values:
       ref: "presentation"
-      permalink: "presentation"
