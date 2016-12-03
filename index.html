@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: eu
 ---
 
 {% include big_header.html %}
@@ -9,34 +10,31 @@ layout: default
 <a id="topButton" href="/"><img src="{{ site.baseurl }}images/top.svg"/></a>
 
 <main>
+  {% assign description=site.pages|where:"ref","description"|where:"lang",page.lang|first %}
   <div id="bookDescription">
-    {% for description in site.descriptions %}
     <div class="descriptionImage" style="background: url('{{ description.image }}'); background-size: cover; background-position: center center"/></div>
     <div class="descriptionText">
       <h1>{{ description.title }}</h1>
       {{ description.content }}
     </div>
-    {% endfor %}
   </div>
 
+  {% assign group=site.pages|where:"ref","group"|where:"lang",page.lang|first %}
   <div id="group">
-    {% for group in site.groups %}
     <img src="{{ group.image }}"/>
     <div class="groupText">
       <h1 class="sectionTitle">{{ group.title }}</h1>
       <h2>{{ group.subtitle }}</h2>
       {{ group.content }}
     </div>
-    {% endfor %}
   </div>
 
+  {% assign prologue=site.pages|where:"ref","prologue"|where:"lang",page.lang|first %}
   <div id="prologue">
-    {% for prologue in site.prologues %}
     <h1 class="sectionTitle">{{ prologue.title }}</h1>
     <h2>{{ prologue.subtitle }}</h2>
     <p>{{ prologue.summary }}</p>
     <img src="{{ prologue.image }}"/>
-    {% endfor %}
   </div>
 
   <div id="stores">
@@ -54,11 +52,10 @@ layout: default
     </ul>
   </div>
 
+  {% assign presentation=site.pages|where:"ref","presentation"|where:"lang",page.lang|first %}
   <div id="presentation">
-    {% for presentation in site.presentations %}
     <h1>{{ presentation.title }}</h1>
     {{ presentation.content }}
-    {% endfor %}
   </div>
 
   <div id="events">
@@ -81,12 +78,11 @@ layout: default
     </ul>
   </div>
 
+  {% assign nagore=site.pages|where:"ref","nagore"|where:"lang",page.lang|first %}
   <div id="nagore">
-    {% for nagore in site.nagore %}
     {{ nagore.content }}
     <h1>{{ nagore.title }}</h1>
     <h2>{{ nagore.subtitle }}</h2>
-    {% endfor %}
   </div>
 
   <div class="news">

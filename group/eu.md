@@ -2,6 +2,7 @@
 title: "Taldea"
 subtitle: "Ametsetik liburua gauzatu duten emakumeak"
 image: "images/borratzeko.jpg"
+lang: "eu"
 ---
 
 Eragile herritar ezberdinek sortutako plataforma da Txingudi Anti Sexista, Asun Casasola Ipuin Lehiaketaren sustatzailea. Bertan eta baita beste egitasmo feminista batzuetan urteetan jardun eta gero, Parean elkartea sortu dugu.
