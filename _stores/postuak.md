@@ -1,6 +1,6 @@
 ---
 title: "Aurkezpenetako postuak"
-image: "images/stores/postuak.jpg"
+image: "/images/stores/postuak.jpg"
 link: "#events"
 ---
 

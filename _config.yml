@@ -61,3 +61,27 @@ defaults:
       path: "presentation"
     values:
       ref: "presentation"
+
+t:
+  eu:
+    subtitle: "Ipuin ilustratuen bilduma"
+    home: "hasiera"
+    stores: "Non erosi?"
+    prologue: "prologoa"
+    news: "Berriak"
+    stories: "ipuinak"
+    contact: "kontaktua"
+    nextevents: "Hurrengo ekitaldiak"
+    agenda: "Apuntatu itzazu agendan!"
+    morenews: "Berri gehiago irakurri"
+  es:
+    subtitle: "Colección de relatos ilustrados"
+    home: "portada"
+    stores: "¿Dónde comprar?"
+    prologue: "prólogue"
+    news: "Noticias"
+    stories: "relatos"
+    contact: "contacto"
+    nextevents: "Próximos eventos"
+    agenda: "Apúntalos en tu agenda!"
+    morenews: "Leer más noticias"

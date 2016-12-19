@@ -1,7 +1,7 @@
 ---
 title: "Grupo"
 subtitle: "Las mujeres que de un sueño han hecho realidad el libro"
-image: "images/borratzeko.jpg"
+image: "/images/borratzeko.jpg"
 lang: "es"
 ---
 

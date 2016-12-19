@@ -1,7 +1,7 @@
 ---
 title: "Taldea"
 subtitle: "Ametsetik liburua gauzatu duten emakumeak"
-image: "images/borratzeko.jpg"
+image: "/images/borratzeko.jpg"
 lang: "eu"
 ---
 

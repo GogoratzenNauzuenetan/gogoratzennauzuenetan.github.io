@@ -6,8 +6,6 @@ layout: default
 
 {% include nav.html %}
 
-<a id="topButton" href="/"><img src="{{ site.baseurl }}images/top.svg"/></a>
-
 <main>
   {% assign description=site.pages|where:"ref","description"|where:"lang",page.lang|first %}
   <div id="bookDescription">
@@ -37,8 +35,8 @@ layout: default
   </div>
 
   <div id="stores">
-    <img src="{{ site.baseurl }}images/header.jpg"/>
-    <h1 class="sectionTitle">Non erosi?</h1>
+    <img src="/images/header.jpg"/>
+    <h1 class="sectionTitle">{{ site.t[page.lang].stores }}</h1>
     <ul>
       {% for store in site.stores %}
       <li>
@@ -58,8 +56,8 @@ layout: default
   </div>
 
   <div id="events">
-    <h1 class="sectionTitle">Hurrengo ekitaldiak</h1>
-    <h2>Apuntatu itzazu agendan!</h2>
+    <h1 class="sectionTitle">{{ site.t[page.lang].nextevents }}</h1>
+    <h2>{{ site.t[page.lang].agenda }}</h2>
     <ul>
       {% for event in site.events %}
       <li>
@@ -85,7 +83,7 @@ layout: default
   </div>
 
   <div class="news">
-    <h1 class="sectionTitle">Berriak</h1>
+    <h1 class="sectionTitle">{{ site.t[page.lang].news }}</h1>
     <ul>
       {% for post in site.posts %}
       <li>
@@ -96,7 +94,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-    <a id="moreNews" href="/berriak">Berri gehiago irakurri</a>
+    <a id="moreNews" href="/berriak">{{ site.t[page.lang].morenews }}</a>
   </div>
 
   <div id="stories">
